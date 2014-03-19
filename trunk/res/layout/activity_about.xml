@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main_bg_color"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/antitheft_guide_title"
+        android:gravity="center"
+        android:text="@string/about_title" />
+
+    <include layout="@layout/row_line" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/antitheft_guide_text_small"
+                android:layout_width="281dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28.0dip"
+                android:layout_marginRight="28.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_weight="0.02"
+                android:text="@string/about_introduction" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="15.0dip"
+                android:layout_weight="0.21"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <include layout="@layout/row_line" />
+
+                <TextView
+                    style="@style/antitheft_guide_title"
+                    android:gravity="center"
+                    android:text="@string/about_members"
+                    android:textColor="@color/red"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_weight="2.24"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10.0dip"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingRight="5dp"
+                            android:src="@drawable/list_icon_security" />
+
+                        <TextView
+                            style="@style/antitheft_guide_text_medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5.0dip"
+                            android:text="@string/about_team_member_1" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10.0dip"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingRight="5dp"
+                            android:src="@drawable/list_icon_security" />
+
+                        <TextView
+                            style="@style/antitheft_guide_text_medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5.0dip"
+                            android:text="@string/about_team_member_2" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <include layout="@layout/row_line" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_weight="2.24"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        style="@style/antitheft_guide_text_medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5.0dip"
+                        android:text="@string/about_thankyou" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

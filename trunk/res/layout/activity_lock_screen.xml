@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:orientation="vertical"
+            android:paddingLeft="10px"
+            android:paddingRight="10px" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_launcher" />
+
+                <TextView
+                    style="@style/LogoText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="TUI Security"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <include layout="@layout/row_line" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.0dip"
+                android:layout_marginRight="12.0dip"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Enter your PIN to unlock" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20px"
+                    android:layout_marginBottom="20px"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@id/lock_screen_edpin_1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10px"
+                        android:background="@layout/form_pin_input"
+                        android:inputType="numberPassword"
+                        android:maxLength="1"
+                        android:singleLine="true"
+                        android:textColor="@color/memory_bar_text_color"
+                        android:textSize="18.0sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@id/lock_screen_edpin_2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10px"
+                        android:background="@layout/form_pin_input"
+                        android:inputType="numberPassword"
+                        android:maxLength="1"
+                        android:singleLine="true"
+                        android:textColor="@color/memory_bar_text_color"
+                        android:textSize="18.0sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@id/lock_screen_edpin_3"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10px"
+                        android:background="@layout/form_pin_input"
+                        android:inputType="numberPassword"
+                        android:maxLength="1"
+                        android:singleLine="true"
+                        android:textColor="@color/memory_bar_text_color"
+                        android:textSize="18.0sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@id/lock_screen_edpin_4"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10px"
+                        android:background="@layout/form_pin_input"
+                        android:inputType="numberPassword"
+                        android:maxLength="1"
+                        android:singleLine="true"
+                        android:textColor="@color/memory_bar_text_color"
+                        android:textSize="18.0sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                
+            </LinearLayout>
+
+            <include layout="@layout/row_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@id/lock_screen_btn_unlock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_common_green_bg"
+                    android:gravity="center"
+                    android:text="@string/lock_screen_btn_unlock" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

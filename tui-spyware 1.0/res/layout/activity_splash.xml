@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:orientation="vertical">
+
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="350dp"
+                    android:gravity="center">
+
+                <ImageView
+                        android:id="@+id/logo_splash"
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/img_uit_logo"/>
+            </LinearLayout>
+
+            <TextView
+                    style="@style/LogoText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/university_name"
+                    android:textSize="25sp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

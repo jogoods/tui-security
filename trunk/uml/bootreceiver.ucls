@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.1" icons="true" automaticImage="PDF" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="tuisolutions.tuisecurity.receivers.BootCompleteReceiver" project="TUI Sercurity" 
+    file="/TUI Sercurity/src/tuisolutions/tuisecurity/receivers/BootCompleteReceiver.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="200" x="294" y="141"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="tuisolutions.tuisecurity.utils.CommandUtils" project="TUI Sercurity" 
+    file="/TUI Sercurity/src/tuisolutions/tuisecurity/utils/CommandUtils.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="269" x="294" y="287"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="tuisolutions.tuisecurity.utils.PreferencesUtils" project="TUI Sercurity" 
+    file="/TUI Sercurity/src/tuisolutions/tuisecurity/utils/PreferencesUtils.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="65" width="157" x="499" y="469"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="android.content.BroadcastReceiver" project="TUI Sercurity" 
+    file="D:/Android/sdk/platforms/android-15/android.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="167" y="197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="tuisolutions.tuisecurity.controllers.SIMController" project="TUI Sercurity" 
+    file="/TUI Sercurity/src/tuisolutions/tuisecurity/controllers/SIMController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="192" x="41" y="287"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="false" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="tuisolutions.tuisecurity.models.SIM" project="TUI Sercurity" 
+    file="/TUI Sercurity/src/tuisolutions/tuisecurity/models/SIM.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="232" width="205" x="254" y="469"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="android.telephony.TelephonyManager" project="TUI Sercurity" 
+    file="D:/Android/sdk/platforms/android-15/android.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="60" width="160" x="41" y="469"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <note id="8">    
+    <position height="100" width="200" x="300" y="-36"/>    
+    <text><![CDATA[]]>
+    </text>  
+  </note>  
+  <note id="9">    
+    <position height="100" width="200" x="538" y="790"/>    
+    <text><![CDATA[]]>
+    </text>  
+  </note>  
+  <dependency id="10">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="11">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="12" name="m_sim"/>      
+      <multiplicity id="13" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="14">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="15">    
+    <bendpoint x="593" y="287"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="16">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <generalization id="17">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <dependency id="18">    
+    <bendpoint x="263" y="287"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <association id="19">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="20" name="telephonyManager"/>      
+      <multiplicity id="21" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

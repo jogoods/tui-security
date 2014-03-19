@@ -1,0 +1,14 @@
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">12dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="actionbar_compat_height">15dp</dimen>
+    <dimen name="actionbar_compat_button_width">15dp</dimen>
+    <dimen name="actionbar_compat_button_home_width">20dp</dimen>
+    <dimen name="preference_textsize_category_title">12sp</dimen>
+    <dimen name="preference_textsize_item_title">12sp</dimen>
+    <dimen name="preference_textsize_item_summary">10sp</dimen>
+    <dimen name="preference_min_column_size">12sp</dimen>
+    
+</resources>

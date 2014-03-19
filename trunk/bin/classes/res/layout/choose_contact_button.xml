@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12.0dip"
+    android:layout_marginLeft="28.0dip"
+    android:layout_marginRight="28.0dip"
+    android:layout_marginTop="12.0dip"
+    android:addStatesFromChildren="true"
+    android:background="@drawable/edittext_bg"
+    android:clickable="true"
+    android:clipChildren="true"
+    android:clipToPadding="true"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="40.0dip"
+        android:layout_gravity="left|center"
+        android:layout_marginRight="0.0dip"
+        android:layout_weight="1.0"
+        android:addStatesFromChildren="true"
+        android:clickable="true"
+        android:clipChildren="true"
+        android:clipToPadding="true"
+        android:padding="8.0dip" >
+
+        <EditText
+            android:id="@id/txtMobileReturn"
+            android:layout_width="0dp"
+            android:layout_height="40.0dip"
+            android:layout_gravity="left|center"
+            android:layout_weight="1.0"
+            android:background="@color/log_white"
+            android:digits="0123456789+"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="@string/setup_guide_helper_p23"
+            android:inputType="number"
+            android:minWidth="140.0dip"
+            android:singleLine="true"
+            android:textColor="#ff000000"
+            android:textColorHighlight="#ff5193ff"
+            android:textColorHint="#ffc7c7c7"
+            android:textSize="14.0sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@id/imgChooseContact"
+        style="@style/text_big_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center"
+        android:background="@drawable/antitheft_contact_sel"
+        android:gravity="center_horizontal"
+        android:textSize="18.0sp" />
+
+</LinearLayout>

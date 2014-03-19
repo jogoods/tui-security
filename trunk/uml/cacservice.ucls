@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.1" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="tuisolutions.tuisecurity.services.AfterBootService.LockPhone" 
+    project="TUI Sercurity" file="/TUI Sercurity/src/tuisolutions/tuisecurity/services/AfterBootService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1056" y="264"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="tuisolutions.tuisecurity.services.AfterBootService" project="TUI Sercurity" 
+    file="/TUI Sercurity/src/tuisolutions/tuisecurity/services/AfterBootService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1056" y="127"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="tuisolutions.tuisecurity.services.GetVictimInformationService" 
+    project="TUI Sercurity" file="/TUI Sercurity/src/tuisolutions/tuisecurity/services/GetVictimInformationService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="396" y="30"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="tuisolutions.tuisecurity.services.InteractionAlarmService" project="TUI Sercurity" 
+    file="/TUI Sercurity/src/tuisolutions/tuisecurity/services/InteractionAlarmService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="982" y="24"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="tuisolutions.tuisecurity.services.PhoneFinderService" project="TUI Sercurity" 
+    file="/TUI Sercurity/src/tuisolutions/tuisecurity/services/PhoneFinderService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="60" width="180" x="748" y="136"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="android.app.Service" project="TUI Sercurity" 
+    file="D:/Android/sdk/platforms/android-15/android.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="59" width="104" x="631" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="tuisolutions.tuisecurity.services.BackupDeleteService" project="TUI Sercurity" 
+    file="/TUI Sercurity/src/tuisolutions/tuisecurity/services/BackupDeleteService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="406" y="131"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="tuisolutions.tuisecurity.services.SecureAppService" project="TUI Sercurity" 
+    file="/TUI Sercurity/src/tuisolutions/tuisecurity/services/SecureAppService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="615" y="166"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="tuisolutions.tuisecurity.services.SecureAppService.PlayMedia" 
+    project="TUI Sercurity" file="/TUI Sercurity/src/tuisolutions/tuisecurity/services/SecureAppService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="617" y="269"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <note id="10">    
+    <position height="20" width="165" x="229" y="363"/>    
+    <text><![CDATA[]]>
+    </text>  
+  </note>  
+  <note id="11">    
+    <position height="84" width="39" x="126" y="-20"/>    
+    <text><![CDATA[]]>
+    </text>  
+  </note>  
+  <note id="12">    
+    <position height="100" width="143" x="1086" y="363"/>    
+    <text><![CDATA[]]>
+    </text>  
+  </note>  
+  <generalization id="13">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <generalization id="14">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <nesting id="15">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </nesting>  
+  <generalization id="16">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <generalization id="17">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <nesting id="18">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="9"/>  
+  </nesting>  
+  <generalization id="19">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <generalization id="20">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="false" package="false" protected="false" private="false"/>    
+    <operations public="false" package="false" protected="false" private="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

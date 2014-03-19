@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="basic-http-client-android-0.86">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../trunk/libs/basic-http-client-android-0.86.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../trunk/libs/basic-http-client-android-0.86.jar!/" />
+    </SOURCES>
+  </library>
+</component>

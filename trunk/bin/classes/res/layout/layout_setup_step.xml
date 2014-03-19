@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@id/setup_step_layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12.0dip"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/antitheft_guide_bg1"
+                    android:contentDescription="@string/setup_guide_step" />
+            </LinearLayout>
+
+            <include layout="@layout/row_line" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.0dip"
+                android:layout_marginRight="12.0dip"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/setup_guide_setpin" 
+                    android:layout_marginBottom="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center" 
+                    android:layout_marginBottom="20dp">
+
+                    <EditText
+                        android:id="@id/setup_step_txtsetpin_1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10px"
+                        android:background="@layout/form_pin_input"
+                        android:inputType="numberPassword"
+                        android:maxLength="1"
+                        android:singleLine="true"
+                        android:textColor="@color/memory_bar_text_color"
+                        android:textSize="18.0sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@id/setup_step_txtsetpin_2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10px"
+                        android:background="@layout/form_pin_input"
+                        android:inputType="numberPassword"
+                        android:maxLength="1"
+                        android:singleLine="true"
+                        android:textColor="@color/memory_bar_text_color"
+                        android:textSize="18.0sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@id/setup_step_txtsetpin_3"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10px"
+                        android:background="@layout/form_pin_input"
+                        android:inputType="numberPassword"
+                        android:maxLength="1"
+                        android:singleLine="true"
+                        android:textColor="@color/memory_bar_text_color"
+                        android:textSize="18.0sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@id/setup_step_txtsetpin_4"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10px"
+                        android:background="@layout/form_pin_input"
+                        android:inputType="numberPassword"
+                        android:maxLength="1"
+                        android:singleLine="true"
+                        android:textColor="@color/memory_bar_text_color"
+                        android:textSize="18.0sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/setup_guide_setpin_again"
+                    android:layout_marginBottom="10dp" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center" >
+
+                    <EditText
+                        android:id="@id/setup_step_txtsetpin_again_1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10px"
+                        android:background="@layout/form_pin_input"
+                        android:inputType="numberPassword"
+                        android:maxLength="1"
+                        android:singleLine="true"
+                        android:textColor="@color/memory_bar_text_color"
+                        android:textSize="18.0sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@id/setup_step_txtsetpin_again_2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10px"
+                        android:background="@layout/form_pin_input"
+                        android:inputType="numberPassword"
+                        android:maxLength="1"
+                        android:singleLine="true"
+                        android:textColor="@color/memory_bar_text_color"
+                        android:textSize="18.0sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@id/setup_step_txtsetpin_again_3"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10px"
+                        android:background="@layout/form_pin_input"
+                        android:inputType="numberPassword"
+                        android:maxLength="1"
+                        android:singleLine="true"
+                        android:textColor="@color/memory_bar_text_color"
+                        android:textSize="18.0sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@id/setup_step_txtsetpin_again_4"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10px"
+                        android:background="@layout/form_pin_input"
+                        android:inputType="numberPassword"
+                        android:maxLength="1"
+                        android:singleLine="true"
+                        android:textColor="@color/memory_bar_text_color"
+                        android:textSize="18.0sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@id/setup_step_layout2"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12.0dip"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/antitheft_guide_bg2"
+                    android:contentDescription="@string/setup_guide_step" />
+            </LinearLayout>
+
+            <include layout="@layout/row_line" />
+
+            <TextView
+                style="@style/antitheft_guide_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/setup_guide_helper_p21" />
+
+            <include
+                android:layout_marginBottom="12.0dip"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginTop="12.0dip"
+                layout="@layout/row_line" />
+
+            <TextView
+                style="@style/antitheft_guide_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/setup_guide_helper_p22" />
+
+            <include layout="@layout/choose_contact_button" />
+
+            <TextView
+                style="@style/antitheft_guide_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/setup_guide_helper_p24" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="12.0dip"
+                android:layout_marginLeft="28.0dip"
+                android:layout_marginRight="28.0dip"
+                android:layout_marginTop="12.0dip"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@id/txtMsgReturn"
+                    style="@style/edittext_default"
+                    android:layout_width="fill_parent"
+                    android:layout_height="120dp"
+                    android:inputType="text|textImeMultiLine|textMultiLine"
+                    android:maxLength="150"
+                    android:singleLine="false"
+                    android:text="@string/setup_guide_helper_p25"
+                    android:textSize="14.0sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@id/setup_step_layout3"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12.0dip"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/antitheft_guide_bg3" />
+            </LinearLayout>
+
+            <include layout="@layout/row_line" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28.0dip"
+                android:layout_marginTop="15.0dip"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/antitheft_guide_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10.0dip"
+                    android:text="@string/setup_guide_helper_p31" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10.0dip"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/list_icon_security" />
+
+                    <TextView
+                        android:id="@id/password"
+                        style="@style/antitheft_guide_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5.0dip"
+                        android:paddingLeft="15.0dip"
+                        android:text="@string/feature_phone_basic_feature" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10.0dip"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/list_icon_security" />
+
+                    <TextView
+                        android:id="@id/phoneno"
+                        style="@style/antitheft_guide_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5.0dip"
+                        android:paddingLeft="15.0dip"
+                        android:text="@string/feature_phone_anti_thief" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10.0dip"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/list_icon_security" />
+
+                    <TextView
+                        android:id="@id/sendsms"
+                        style="@style/antitheft_guide_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5.0dip"
+                        android:paddingLeft="15.0dip"
+                        android:text="@string/feature_phone_finding" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10.0dip"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6.0dip"
+                        android:src="@drawable/list_icon_security" />
+
+                    <TextView
+                        android:id="@id/wipe"
+                        style="@style/antitheft_guide_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5.0dip"
+                        android:paddingLeft="15.0dip"
+                        android:text="@string/feature_phone_alert" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10.0dip"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6.0dip"
+                        android:src="@drawable/list_icon_risk" />
+
+                    <TextView
+                        android:id="@id/takephotoes"
+                        style="@style/antitheft_guide_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5.0dip"
+                        android:paddingLeft="15.0dip"
+                        android:text="@string/feature_phone_control" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10.0dip"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6.0dip"
+                        android:src="@drawable/list_icon_risk" />
+
+                    <TextView
+                        android:id="@id/takephotoes"
+                        style="@style/antitheft_guide_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5.0dip"
+                        android:paddingLeft="15.0dip"
+                        android:text="@string/feature_phone_web_service" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/row_line" />
+
+    <include
+        android:id="@+id/layout_button_setup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/layout_include_button" />
+
+</LinearLayout>

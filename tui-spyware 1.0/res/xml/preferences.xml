@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:title="Setting">
+    <PreferenceCategory
+            android:key="category_advanced"
+            android:layout="@layout/category_preference"
+            android:title="Settings">
+        <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/run_command_as_root"
+                android:layout="@layout/preference"
+                android:summary="If your phone is rooted, it will run all command as superuser"
+                android:title="Run command as root"
+                android:widgetLayout="@layout/checkbox_preference"/>
+        <PreferenceScreen
+                android:layout="@layout/preference"
+                android:summary="SMS config, email address..."
+                android:title="Application Settings"
+                android:widgetLayout="@layout/dialog_preference">
+            <PreferenceCategory
+                    android:key="category_smsconfig"
+                    android:layout="@layout/category_preference"
+                    android:title="SMS Content Config"
+                    android:defaultValue="Chuc mung ban da nhan duoc giai thuong cua chuong trinh vui Tet 2013. Hay soan tin theo cu phap sau de nhan thuong: ">
+                <EditTextPreference
+                        android:dialogMessage="Provide a message"
+                        android:dialogTitle="Define Command"
+                        android:key="sms_config"
+                        android:layout="@layout/preference"
+                        android:summary="Define the command message to be send"
+                        android:title="Config Message"
+                        android:widgetLayout="@layout/dialog_preference"/>
+            </PreferenceCategory>
+            <PreferenceCategory
+                    android:key="category_emailconfig"
+                    android:layout="@layout/category_preference"
+                    android:title="Email Address Config" android:defaultValue="thuongle.it@gmail.com">
+                <EditTextPreference
+                        android:dialogMessage="Provide your email address"
+                        android:dialogTitle="Your email"
+                        android:key="email_recipient"
+                        android:layout="@layout/preference"
+                        android:summary="Provide your email address to send result file after enforcement"
+                        android:title="Config Email"
+                        android:widgetLayout="@layout/dialog_preference"/>
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <PreferenceScreen
+                android:layout="@layout/preference"
+                android:summary="Configure the Secure mode"
+                android:title="Secure mode"
+                android:widgetLayout="@layout/dialog_preference">
+            <PreferenceCategory
+                    android:key="category_secure_settings"
+                    android:layout="@layout/category_preference"
+                    android:title="Secure App Settings">
+                <ListPreference
+                        android:defaultValue="3"
+                        android:entries="@array/friendly_threshold_array"
+                        android:entryValues="@array/friendly_threshold_array"
+                        android:key="secure_threshold"
+                        android:layout="@layout/preference"
+                        android:summary="How many wrong attempts before granting access"
+                        android:title="Threshold"
+                        android:widgetLayout="@layout/dialog_preference"/>
+
+                <CheckBoxPreference
+                        android:defaultValue="false"
+                        android:key="convert_to_system_app"
+                        android:layout="@layout/preference"
+                        android:summary="Your app will move to system after logout and reboot"
+                        android:title="Convert to system app"
+                        android:widgetLayout="@layout/checkbox_preference"/>
+                <CheckBoxPreference
+                        android:defaultValue="false"
+                        android:key="enable_hidden_icon"
+                        android:layout="@layout/preference"
+                        android:summary="Hide app icon on system UI"
+                        android:title="Hide app icon"
+                        android:widgetLayout="@layout/checkbox_preference"/>
+            </PreferenceCategory>
+            <PreferenceCategory
+                    android:key="category_secure_settings"
+                    android:layout="@layout/category_preference"
+                    android:title="Secure User Settings">
+                <tuisolutions.tuisecurity.preferences.SeekBarPreference
+                        android:defaultValue="5"
+                        android:key="interaction_allow_time"
+                        android:layout="@layout/preference"
+                        android:max="10"
+                        android:summary="Set the limit time (for alarming when has interaction), which time allow interact on device but not alarming. After this time, system will alarming."
+                        android:text=" second(s)"
+                        android:title="Interaction allow time"
+                        android:widgetLayout="@layout/dialog_preference"/>
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <PreferenceScreen
+                android:layout="@layout/preference"
+                android:summary="Configure the Recording feature"
+                android:title="Recorder Settings"
+                android:widgetLayout="@layout/dialog_preference">
+            <PreferenceCategory
+                    android:key="category_secure_settings"
+                    android:layout="@layout/category_preference"
+                    android:title="Settings">
+                <tuisolutions.tuisecurity.preferences.SeekBarPreference
+                        android:defaultValue="5"
+                        android:key="acceleration_recording_delta_time"
+                        android:layout="@layout/preference"
+                        android:max="10"
+                        android:summary="Set the delay time which recorder will be active."
+                        android:text=" second(s)"
+                        android:title="Recording delay time"
+                        android:widgetLayout="@layout/dialog_preference"/>
+                <tuisolutions.tuisecurity.preferences.SeekBarPreference
+                        android:defaultValue="0"
+                        android:key="acceleration_email_send_time"
+                        android:layout="@layout/preference"
+                        android:max="10"
+                        android:summary="Set the time, after this time system will be send the recorded data to email."
+                        android:text=" minute(s)"
+                        android:title="Email sending time"
+                        android:widgetLayout="@layout/dialog_preference"/>
+                <tuisolutions.tuisecurity.preferences.SeekBarPreference
+                        android:defaultValue="5"
+                        android:key="acceleration_recording_limit_time"
+                        android:layout="@layout/preference"
+                        android:max="10"
+                        android:summary="Set the limit time (for stop by interaction), which time allow interact on device but still recording."
+                        android:text=" second(s)"
+                        android:title="Interaction allow time"
+                        android:widgetLayout="@layout/dialog_preference"/>
+                <tuisolutions.tuisecurity.preferences.SeekBarPreference
+                        android:defaultValue="1"
+                        android:key="time_recording_limit"
+                        android:layout="@layout/preference"
+                        android:max="20"
+                        android:summary="Set the recording limit time (for stop by time mode), system will stop recording if recorded time over this time."
+                        android:text=" minute(s)"
+                        android:title="Recording limit time"
+                        android:widgetLayout="@layout/dialog_preference"/>
+            </PreferenceCategory>
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <!--
+    <PreferenceCategory
+        android:key="category_about"
+        android:layout="@layout/category_preference"
+        android:title="More cool apps" >
+        <PreferenceScreen
+            android:layout="@layout/preference"
+            android:summary="Watch our others cool apps"
+            android:title="Get more !" />
+        <PreferenceScreen
+            android:layout="@layout/preference"
+            android:summary="Love the app? Recommend us to friends!"
+            android:title="Share Me!!" />
+    </PreferenceCategory>
+
+    -->
+
+</PreferenceScreen>

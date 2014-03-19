@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/choose_contact_button" />
+
+    <include layout="@layout/row_line" />
+
+    <EditText
+        android:id="@id/txt_input_victim_pin"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center"
+        android:layout_marginBottom="12.0dip"
+        android:layout_marginLeft="28.0dip"
+        android:layout_marginRight="28.0dip"
+        android:layout_marginTop="12.0dip"
+        android:addStatesFromChildren="true"
+        android:background="@drawable/edittext_bg"
+        android:clickable="true"
+        android:clipChildren="true"
+        android:clipToPadding="true"
+        android:digits="0123456789+"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="  Input target&apos;s PIN"
+        android:inputType="number"
+        android:maxLength="16"
+        android:minWidth="140.0dip"
+        android:orientation="horizontal"
+        android:singleLine="true"
+        android:textColor="#ff000000"
+        android:textColorHighlight="#ff5193ff"
+        android:textColorHint="#ffc7c7c7"
+        android:textSize="14.0sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@id/btn_ok"
+            android:layout_width="100dip"
+            android:layout_height="50dip"
+            android:layout_margin="10.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/button_common_green_bg"
+            android:text="OK" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/navigator"
+            android:icon="@drawable/ic_action_overflow"
+            android:orderInCategory="2"
+            android:showAsAction="always">
+        <menu>
+            <item
+                    android:id="@+id/menu_settings"
+                    android:showAsAction="never"
+                    android:title="@string/menu_settings"/>
+            <item
+                    android:id="@+id/menu_help"
+                    android:showAsAction="never"
+                    android:title="@string/menu_help"/>
+            <item
+                    android:id="@+id/menu_about"
+                    android:showAsAction="never"
+                    android:title="@string/menu_about"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/menu_command"
+          android:orderInCategory="1"
+          android:showAsAction="always"
+          android:icon="@drawable/icon_command"
+          android:title="Commander">
+
+    </item>
+</menu>

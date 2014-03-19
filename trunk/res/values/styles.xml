@@ -1,0 +1,144 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="text_middle_default">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/list_item_title_text_color</item>
+    </style>
+
+    <style name="ActionBarCompatItemBase">
+
+        <!-- layout_width/height must be set in code -->
+        <item name="android:scaleType">center</item>
+        <item name="android:background">@drawable/actionbar_compat_item</item>
+    </style>
+
+    <style name="ActionBarCompatProgressIndicator" parent="android:style/Widget.ProgressBar.Large">
+        <item name="android:indeterminate">true</item>
+    </style>
+
+    <style name="ActionBarCompatTitleBase">
+        <item name="android:id">@id/actionbar_compat_title</item>
+        <!-- layout_width/height/weight must be set in code -->
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+
+    <style name="ActionBarCompatTitle" parent="style/ActionBarCompatTitleBase">
+        <item name="android:textColor">@color/actionbar_title_color</item>
+    </style>
+
+    <style name="ActionBarCompatItem" parent="style/ActionBarCompatItemBase"></style>
+
+    <style name="ActionBarCompatHomeItem" parent="style/ActionBarCompatItemBase"></style>
+
+    <style name="AppTheme" parent="android:style/Theme.Light">
+        <item name="android:windowTitleSize">@dimen/actionbar_compat_height</item>
+        <item name="android:windowTitleBackgroundStyle">@style/ActionBarCompat</item>
+        <item name="android:windowContentOverlay">@drawable/actionbar_shadow</item>
+
+        <!-- for programmatic instantiation -->
+        <item name="actionbarCompatTitleStyle">@style/ActionBarCompatTitle</item>
+        <item name="actionbarCompatItemStyle">@style/ActionBarCompatItem</item>
+        <item name="actionbarCompatItemHomeStyle">@style/ActionBarCompatHomeItem</item>
+        <item name="actionbarCompatProgressIndicatorStyle">@style/ActionBarCompatProgressIndicator</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="ActionBarCompat">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="ActionBarCompatItem" parent="style/ActionBarCompatItemBase"></style>
+
+    <style name="ActionBarCompatHomeItem" parent="style/ActionBarCompatItemBase"></style>
+
+    <style name="StockDetailHeader" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/highlight</item>
+    </style>
+
+    <style name="StockDetailValues" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="StockDetail" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="antitheft_guide_title">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff333333</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">34.0dip</item>
+        <item name="android:layout_marginLeft">12.0dip</item>
+        <item name="android:layout_marginRight">12.0dip</item>
+        <item name="android:textStyle"></item>
+    </style>
+
+    <style name="command_text_style" parent="@style/antitheft_guide_text">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffff6655</item>
+    </style>
+
+    <style name="antitheft_guide_text">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff333333</item>
+    </style>
+
+    <style name="edittext_default">
+        <item name="android:background">@drawable/edittext_bg</item>
+        <item name="android:padding">8.0dip</item>
+    </style>
+
+    <style name="black_text">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">#ff333333</item>
+    </style>
+
+    <style name="text_big_default">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">@color/list_item_title_text_color</item>
+    </style>
+
+    <style name="antitheft_guide_text_small">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">#ff777777</item>
+    </style>
+
+    <style name="antitheft_guide_text_medium">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff777777</item>
+    </style>
+
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+    
+    <style name="LogoText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/button_dark_text_warning_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+</resources>

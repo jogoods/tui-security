@@ -1,0 +1,380 @@
+<resources>
+
+    <!-- Common String -->
+    <string name="next">Next</string>
+    <string name="done">Done</string>
+    <string name="previous">Previous</string>
+    <string name="copy_right">Copyright © 2011–2012 TUI Solutions</string>
+    <string name="all_rights_reserved">All Rights Reserved</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="add">Add</string>
+    <string name="finish">Finish</string>
+    <string name="name">Name</string>
+    <string name="ok">OK</string>
+    <string name="help">help</string>
+    <string name="returnstr">Return</string>
+    <string name="open">Open</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="anti_theft">TUI Security</string>
+    <string name="activated">Activated</string>
+    <string name="activate">Activate</string>
+
+    <!-- String for setup guide step -->
+    <string name="setup_guide_step">Step</string>
+    <string name="setup_guide_setpin">Setup your PIN code</string>
+    <string name="setup_guide_setpin_again">Your PIN code again</string>
+    <string name="setup_guide_pin_hint">Input your PIN</string>
+    <string name="setup_guide_hint">Input your number</string>
+    <string name="setup_guide_pin_hint_again">Input your PIN again</string>
+    <string name="setup_guide_hint_again">Input number again</string>
+    <string name="setup_guide_pwd_forget_question">(*)Password Reset Questions:</string>
+    <string name="setup_guide_pwd_forget_ans">(*)Password Reset Answer:</string>
+    <string name="setup_guide_pwd_ans_hint">Your Answer</string>
+    <string name="setup_guide_helper_p11">You can unlock your device with this password or by providing the correct answer to the password reset question.</string>
+    <string name="setup_guide_helper_p12">The password you choose here is also needed for:</string>
+    <string name="setup_guide_helper_p13">- Opening AntithePhone Findergs</string>
+    <string name="setup_guide_helper_p14">- Sending remote commands from other phones</string>
+    <string name="setup_guide_helper_p21">"Specify your friend phone number to receive the SMS alert when your lost phone is changed status (SIM-Turn ON/OFF)"</string>
+    <string name="setup_guide_helper_p22">Input phone number</string>
+    <string name="setup_guide_helper_p23">Input phone number</string>
+    <string name="setup_guide_helper_p24">Edit the SMS alert message:</string>
+    <string name="setup_guide_helper_p25">"This is &lt;First Name> &lt;Surname>. My phone might have been stolen – you received this alert because somebody has replaced it's SIM card."</string>
+    <string name="setup_guide_helper_p31">Application set up successful</string>
+    <string name="setup_guide_helper_p32"><b>TUI Security password:</b> Set</string>
+    <string name="setup_guide_helper_p33">Buddy number:</string>
+    <string name="setup_guide_helper_p34"><b>Send SMS on SIM card change:</b> On</string>
+
+    <!-- String for Main Activiy -->
+    <string name="main_pager_activate_tip"><font color="#ff0000">Activate TUI Security to help you make this device is safe and find it easily if it gets lost or stolen</font></string>
+    <string name="main_pager_activated_tip"><font color="#ff0000">Your phone is protected!!</font></string>
+
+    <!-- String for Demo Activity -->
+
+    <string name="demo_activity_basic_features_introduction">Basic Features – Introduction</string>
+    <string name="demo_phone_spying_introduction">Remote Control – Introduction</string>
+    <string name="demo_activity_remote_device_lock_info">Remote Device is disabled by default. Please enable it in TUI Security Settings.</string>
+    <string name="demo_activity_basic_features_action">"Send the text message to your lose phone from your friend's phone. This will do something to make your information safe from the thieves."</string>
+    <string name="feature_urgent_case">Backup &amp; Format Phone with Urgent Case</string>
+    <string name="feature_delete_contact">Backup &amp; Wipe Contact</string>
+    <string name="feature_delete_message">Backup &amp; Wipe Message</string>
+    <string name="feature_delete_account">Delete Account (Google, Facebook)</string>
+    <string name="feature_delete_media">Format SD Card</string>
+    <string name="feature_auto_lock">Auto Lock Phone with PIN</string>
+    <string name="demo_features">Active this and you can:</string>
+    <string name="setup_guide_helper_p35"><b>Remote Device Wipe:</b>" OFF
+(Enabling this feature in "<b>TUI Security settings</b> will allow you to erase all your personal data if your device is lost or stolen)</string>
+    <string name="setup_guide_helper_p36"><b>Remote Capture:</b>" OFF
+(Enabling this feature in "<b>TUI Security settings</b> will allow you to remotely take photos from your lost or stolen device and receive them at your email)</string>
+    <string name="feature_phone_basic_feature">Basic Features</string>
+    <string name="feature_phone_alert">Phone Alert</string>
+    <string name="feature_phone_anti_thief">Anti Theft</string>
+    <string name="feature_phone_finding">Phone Finding</string>
+    <string name="feature_phone_control">Remote Control</string>
+    <string name="feature_phone_web_service">Web Remote</string>
+    <string name="app_name">TUI Security</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_about">About</string>
+    <string name="menu_activity">Activity</string>
+    <string name="title_activity_main">TUI Security</string>
+    <string name="preferences_basic">Basic</string>
+
+    <!-- Phone factory reset -->
+    <string name="preference_phone_factory_reset_enabled_title">Phone factory reset</string>
+    <string name="preference_phone_factory_reset_enabled_summary">Factory reset your phone.</string>
+
+    <!-- SD Card Format -->
+    <string name="preference_sdcard_format_enabled_title">Format SD Card</string>
+    <string name="preference_sdcard_format_enabled_summary">Format SD Card.</string>
+
+    <!-- Delete Contact -->
+    <string name="preference_delete_contact_enabled_title">Delete Contact</string>
+    <string name="preference_delete_contact_enabled_summary">Delete Contact</string>
+
+    <!-- Delete SMS -->
+    <string name="preference_delete_sms_enabled_title">Delete SMS</string>
+    <string name="preference_delete_sms_enabled_summary">Delete SMS</string>
+    <string name="blocking_app_running_action_text">Blocking Notification Options</string>
+    <string name="blocking_app_running_action_summary">Define what to do when a notification comes in while a blocking app is running.</string>
+    <string name="preference_hide_unknown_contact_name_title">Hide Unknown Contact Name</string>
+    <string name="preference_hide_unknown_contact_name_summary">Hide the contact name if it is unknown.</string>
+    <string name="preference_disable_context_menu_title">Disable Context Menu</string>
+    <string name="preference_disable_context_menu_summary">Disable the context menu that is attached to notification headers.</string>
+    <string name="preference_disable_quick_contact_title">Disable Photo Menu</string>
+    <string name="preference_disable_quick_contact_summary">Disable the quick contact menu that is attached to notification photos.</string>
+    <string name="reschedule_category">RESCHEDULE</string>
+    <string name="preference_display_reschedule_button_title">Display Reschedule Button</string>
+    <string name="preference_display_reschedule_button_summary">Display the reschedule button in the header.</string>
+    <string name="reschedule_settings">Reschedule Settings</string>
+    <string name="reminders_category">REMINDERS</string>
+    <string name="preference_reminders_enabled_title">Enable Reminders</string>
+    <string name="preference_reminders_enabled_summary">Remind you of unread notifications.</string>
+    <string name="preference_event_reminder_settings">Event Settings</string>
+    <string name="quiet_time_category">QUIET TIME</string>
+    <string name="preference_quiet_time_enabled_title">Enable Quiet Time</string>
+    <string name="preference_quiet_time_enabled_summary">Stop notifications during certain time periods.</string>
+    <string name="quiet_time_settings">Quiet Time Settings</string>
+    <string name="quick_reply_category">QUICK REPLY</string>
+    <string name="quick_reply_settings">Quick Reply Settings</string>
+    <string name="customize_contacts_category">CUSTOMIZE CONTACTS</string>
+    <string name="customize_contacts">Customize Contacts</string>
+    <string name="blacklist_category">BLACKLIST</string>
+    <string name="blacklist">Blacklist</string>
+    <string name="reminder_settings">Reminder Settings</string>
+    <string name="reschedule_notification_text">Reschedule Notification</string>
+    <string name="ignore_notification_text">Ignore Notification</string>
+    <string name="show_notification_text">Show Notification</string>
+    <string name="see_demo">See Demo</string>
+    <string name="locate_demo_title">Remote Locate – Introduction</string>
+    <string name="locate_demo_command_tips">"Send the following text message to your phone from your friend's phone:\nYour phone will reply with a Google Maps link of its current location."</string>
+    <string name="anti_theft_demo">TUI Security Demo:</string>
+    <string name="remote_locate">Remote Locate</string>
+    <string name="sim_change_alerts">SIM Change Alerts</string>
+    <string name="sound_an_alarm">Sound An Alarm</string>
+    <string name="remote_device_lock">Remote Device Lock</string>
+    <string name="remote_wipe">Remote Device Wipe</string>
+    <string name="sound_an_alarm_title">Sound an Alarm – Introduction</string>
+    <string name="sim_change_alerts_tips">"If somebody changes the SIM card on your missing phone then CAT will automatically send an SMS alert to your buddy's phone. 
+
+As the SMS will be from your phones 'new' number, you can send locate, lock, wipe and alarm commands to it to protect your device."</string>
+    <string name="sound_an_alarm_tips">"Text/SMS is send to your device:\nThe missing device will sound aloud in a long times even if it is in silent mode."</string>
+    <string name="remote_anti_thief_tips">"Active this feature: \nYour phone will be alarm when has interaction (after power was pressed)."</string>
+    <string name="continuestr">Continue</string>
+    <string name="tuisecurityfirstguidetitle1">TUI Security allows you to backup and wipe, lock your device and you can remotely locate if it lost.  Most feaures are activated by text messaging a special command to your missing device.</string>
+    <string name="antitheftsettingguidecontent1e"><b> - Backup &amp; Wipe:</b> Backup/wipe your contact, message, your applications data (Maps, Youtube, Facebook, Yahoo) and format SD card. Then send this backup file to your email address.</string>
+    <string name="antitheftsettingguidecontent1b"><b> - SIM change alert:</b> Will send a text message to your friend number if the SIM card is replaced or your phone is turned on.</string>
+    <string name="antitheftsettingguidecontent1c"><b> - Anti Theft:</b> To protect your phone after activated (use accelerator of device). The phone will alarm when has interaction on your device after limit allow time.</string>
+    <string name="antitheftsettingguidecontent1a"><b> - Phone Finding:</b> You send a message and your missing phone tell you where it is (via address and can view it in Google Maps)!! </string>
+    <string name="antitheftsettingguidecontent1f"><b> - Phone Remote:</b> The apps make you to become a spy. You can send a message to get data, recording sound around the phone and sends it immediately to your email address.</string>
+    <string name="antitheftsettingguidecontent1d"><b> - Web Remote:</b> Using web service to sync your profile, backup your system, phone finding and remote your phone from web!</string>
+    <string name="antitheftsettingguidecontent2a">Setting Password：</string>
+    <string name="antitheftsettingguidecontent2e">Please complete all password fields</string>
+    <string name="antitheftsettingguidecontent2f">Please confirm your password</string>
+    <string name="antitheftsettingguidecontent2g">Passwords do not match. Please try again.</string>
+    <string name="antitheftsettingguidecontent2h">Please enter an answer for password reset security question</string>
+    <string name="antitheftsettingguidecontent2i">Please relpace &lt;first Name> &lt;last name> with your full name.</string>
+    <string name="antitheftsettingguidetv1">Old Password</string>
+    <string name="antitheftsettingguidetv2">New Password</string>
+    <string name="antitheftsettingguidepwd">Password</string>
+    <string name="antitheftsettingguidepwdconf">Confirm Password</string>
+    <string name="antitheftsettingguidecontent3j">Please enter your buddy number</string>
+    <string name="antitheftsettingguide_replacestr">&lt;First Name> &lt;Surname></string>
+    <string name="hint_6to16_chars">6–16 chars</string>
+    <string name="stop">Stop</string>
+    <string name="antitheft_lock">This device has been locked. Please enter the password to unlock.</string>
+    <string name="antitheft_unlock">Unlock</string>
+    <string name="antitheft_getpwd">Unlock by answering password reset security question</string>
+    <string name="antitheft_setting">TUI Security Settings</string>
+    <string name="antitheft_wizard">TUI Security Setup Wizard</string>
+    <string name="antitheft_clicktomodify">Tap to modify</string>
+    <string name="antitheft_modifypassword">Modify Password</string>
+    <string name="antitheft_buddynumber">Buddy number</string>
+    <string name="antitheft_remotewipe">Remote Wipe</string>
+    <string name="antitheft_remotewipe_summary">Allows you to remotely erase all personal data from your missing device - including messages, call history, contacts, bookmarks, photos, video and anything on your SD card.</string>
+    <string name="antitheft_modifysmswhensimcardchanged">Modify SIM card change alert</string>
+    <string name="antitheft_help_title">TUI Security Help</string>
+    <string name="antitheft_canceldlg_title">Deactivate Phone Finder</string>
+    <string name="antitheft_canceldlg_body">Please confirm you wish to deactivate Phone Finder protection</string>
+    <string name="antitheft_isrun">Phone Finder Service</string>
+    <string name="antitheft_locatedemo_title">Location of your phone (demo)</string>
+    <string name="antitheft_locatedemo_body">Your phone is located at:</string>
+    <string name="antitheft_set_buddy_number">Edit Buddy Number</string>
+    <string name="antitheft_turnon_feature">Activate Phone Finder to use this feature</string>
+    <string name="antitheft_lock_forgotdemostr">"This is a demo. the 'forgotten password' button is not working. you can click 'Unlock' to return to the previous page"</string>
+    <string name="antitheft_messsage_cannot_empty">Please enter the SMS alert message</string>
+    <string name="antitheft_buddynumber_cannot_empty">Please enter your buddy number</string>
+    <string name="antitheft_question">Questions:</string>
+    <string name="antitheft_cmd_locked_successfully">Remote Lock Successful. Your device is now password protected at the home screen.</string>
+    <string name="antitheft_cmd_locked_failure">Your device could not be locked at this time. Please try again later</string>
+    <string name="antitheft_answerlock_title">Password reset security question</string>
+    <string name="antitheft_cmd_alarm_successfully">Remote Alarm Successful. Your device should now be sounding an alarm.</string>
+    <string name="antitheft_cmd_alarm_failure">Your device could not be contacted to sound an alarm. Please try again later.</string>
+    <string name="antitheft_uninstall_msg">You need to disable Remote Device Wipe to uninstall CAT. Are you sure you want to disable?</string>
+    <string name="antitheft_cmd_wipe_start">Remote Wipe command has been received. CAT will now attempt to erase all personal data from your device.</string>
+    <string name="antitheft_cmd_wipe_end">Remote Wipe complete. All your personal data has been erased.</string>
+    <string name="antitheft_cmd_locate_failure">Your device could not be located at this time. Please try again later</string>
+    <string name="antitheft_cmd_wipe_notrun">Sorry, remote device wipe is disabled on your device. The wipe command cannot be executed.</string>
+    <string name="antitheft_cmd_service_notrun">Sorry, the Phone Finder feature is not activated on your device. This command cannot be executed.</string>
+    <string name="remote_wipe_text1_linkstr">Phone Finder Settings</string>
+    <string name="antitheft_nosimcard_active">Please insert SIM card before active Phone Finder.</string>
+    <string name="password_activity_title">Enter Your Password</string>
+    <string name="progress_dlg_fetching_data">Loading…</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_yes">Yes</string>
+    <string name="common_no">No</string>
+    <string name="common_ok">OK</string>
+    <string name="common_edit_password">Change Password</string>
+    <string name="common_set_up_password">Set Password</string>
+    <string name="password_must_not_null">Please fill out all password fields</string>
+    <string name="answer_must_not_null">Please fill out answer fields</string>
+    <string name="dialog_reset_password">Password Reset - Authorization</string>
+    <string name="password_edit_collapse_hint">Change security questions</string>
+    <string name="setpwd_errOnSetPWD">Passwords do not match. Please try again.</string>
+    <string name="dialog_forget_password">Forgotten Password?</string>
+    <string name="password_wrong_pwd">Incorrect password. Please try again.</string>
+    <string name="password_edit_expand_hint">Revert to existing security questions</string>
+    <string name="dialog_old_password">Enter Your Old Password</string>
+    <string name="forget_password_invalid_input_number">Number not recognized. Please take care to type the number in its entirety, without spaces.</string>
+    <string name="forget_password_invalid_input">The answer is incorrect. Please try again.</string>
+    <string name="version">Version</string>
+    <string name="i_accept">I Accept</string>
+    <string name="user_license_agreement">User License Agreement</string>
+    <string name="active_username">Username:</string>
+    <string name="active_password">Password:</string>
+    <string name="activate_emailinvalid">Email address is invalid</string>
+    <string name="antitheft_cmd_takephotos_failure">Your device could not take photoes at this time. Please try again later</string>
+    <string name="update_is_latest">Software is up to date</string>
+    <string name="update_apk_downloaded">Updates successfully downloaded. Would you like to install?</string>
+    <string name="update_new_version_available">Updates are available for CAT. Would you like to download?</string>
+    <string name="update_tips_title">Update Info</string>
+    <string name="update_checking">Checking for the update</string>
+    <string name="update_no_connection">Update Failed. Please try later.</string>
+    <string name="update">Software and Updates</string>
+    <string name="update_time_out">Update Failed. Please try later.</string>
+    <string name="update_downloading">Downloading…</string>
+    <string name="update_waiting">Checking for updates…</string>
+    <string name="update_auto_check_duration">3</string>
+    <string name="could_not_access_network">Could not access network</string>
+    <string name="mail_subject">Photo Taken With Your Camera</string>
+    <string name="mail_body">Photo:</string>
+    <string name="mail_testsubject">Remote Capture email confirmation</string>
+    <string name="mail_testbody">Your mobile device has been successfully configured for Remote Capture.</string>
+    <string name="takephotoes_dlg_title">New Message Received</string>
+    <string name="takephotoes_dlg_body">"Click 'Read' to continue."</string>
+    <string name="takephotoes_success_usermsg">Remote Capture successful. Please check your email.</string>
+    <string name="takephotoes_failed_usermsg">An error occurred. Please try again.</string>
+    <string name="takephotoes">Remote Capture</string>
+    <string name="demo_anti_thief_title">Anti theft – Introduction</string>
+    <string name="demo_phone_spying_tips">"Text/SMS is send to your phone:\nYour phone will get user's information and immediately send it to your email address."</string>
+    <string name="demo_takephotoes_tips1_link">Phone Finder Settings</string>
+    <string name="check_for_updates">Check for updates</string>
+    <string name="software_and_updates">Software and updates</string>
+    <string name="check_for_updates_summary_on">Automatically check for updates</string>
+    <string name="check_for_updates_summary_off">Only check when wifi available</string>
+    <string name="takephotoes_summary">Allows you to take photos from your missing device which will then be sent to your email address</string>
+    <string name="takephotoes_setting">Tap to configure your email address</string>
+    <string name="smtp_server">SMTP Server:</string>
+    <string name="smtp_port">SMTP Port:</string>
+    <string name="antitheft_mailset_input_errormsg">Please enter a valid SMTP server, port and email address.</string>
+    <string name="antitheft_mailset_checking">Testing account settings…</string>
+    <string name="antitheft_mailset_checkmail_success">Account verified!</string>
+    <string name="antitheft_mailset_checkmail_failed_cannotserver">Unable to connect to your SMTP server. Please enter valid SMTP port, server, username and password and try again.</string>
+    <string name="antitheft_mailset_checkmail_failed_passwordincorrect">Invalid username or password. Please try again.</string>
+    <string name="email_setting_title">Email Settings</string>
+    <string name="required">Required</string>
+    <string name="antitheft_cmd_takephotoes_notrun">Unable to execute the command. Remote capture is not enabled in your device.</string>
+    <string name="recvemail_setting_title">Email address to send camera output</string>
+    <string name="recvemail_setting_summary">Tap to enter the email</string>
+    <string name="recvemail_address">Email address</string>
+    <string name="read">Read</string>
+    <string name="call_can_not_open_camera">Remote Capture failed. Unable to take photo at this moment. Please try again later.</string>
+    <string name="antitheft_mailset_email_address">Email Address:</string>
+    <string name="antitheft_mailset_email_address_default">Email address</string>
+    <string name="antitheft_sendemail_authentication">My outgoing server (SMTP) requires authentication</string>
+    <string name="antitheft_recepient_as_sender_email">Enter your email address. The same email address will be used for sender and recipient addresses.</string>
+    <string name="antitheft_authentication_inputpassword">This mail server requires authentication for sending mails. Please enter your username and password and try again.</string>
+    <string name="takephoto_loading_str">You look great today. How I know? Because you look great every day.</string>
+    <string name="device_admin_description" />
+    <string name="fullVersionOnly">FULL version only !</string>
+    <string name="appName">GotYa!</string>
+    <string name="wrongLoginAttempt">Failed login attempt detected !</string>
+    <string name="deviceAdminExplanation">To monitor login attempts, GotYa! needs to enforce a policy. GotYa! WILL NOT wipe your data !</string>
+    <string name="emailAlertBody">Please see the attached picture.</string>
+    <string name="emailLocationBody">Your device location :</string>
+    <string name="facebookAlertBody">GotYa! is notifying you : someone tried to snoop around in your device.</string>
+    <string name="facebookLocationBody">GotYa! is giving you the location of your device :</string>
+    <string name="emailSupport">renaud@myboyfriendisageek.com</string>
+    <string name="screenOnAttempt">The screen has been turned ON !</string>
+    <string name="summaryScreenTriggerOn">Take a picture everytime the screen turns on</string>
+    <string name="summaryScreenTriggerOff">Screen trigger is disabled</string>
+    <string name="everytime">everytime</string>
+    <string name="after1wronglogin">after 1 failed login</string>
+    <string name="after2wronglogin">after 2 failed login</string>
+    <string name="after3wronglogin">after 3 failed login</string>
+    <string name="after4wronglogin">after 4 failed login</string>
+    <string name="after5wronglogin">after 5 failed login</string>
+    <string name="txtPlzRateMe">"Hey ! Loving the application ? *Please* take a moment to give us a rate and/or a comment to help ! "</string>
+    <string name="camera_hack_key_summary">Extra parameter key for camera</string>
+    <string name="camera_hack_value_summary">Extra parameter value for camera</string>
+    <string name="txtGPSisDisabled">The location service seems disabled. Please enable first.</string>
+    <string name="txtNetworkGPSisDisabled">Warning ! The network location provider seems disabled. Location updates may NOT work.</string>
+    <string name="plzuninstall">GotYa! Lite is currently installed / running ! Please disable first and then uninstall.</string>
+    <string name="txtEmailAutofill">Should I use the same address for the SMTP credentials ?</string>
+    <string name="txtSmsCommandTitle">SMS Commands</string>
+    <string name="txtEnterPhoneNumber">Phone number</string>
+    <string name="message_subject">Android device log</string>
+    <string name="acquiring_log_progress_dialog_message">Acquiring log from the system…</string>
+    <string name="chooser_title">Select an application to send the log</string>
+    <string name="failed_to_get_log_message">Failed to get the log from the system.</string>
+    <string name="main_dialog_text">"This application will attempt to collect the device log. \u0009The collected log will be sent using an application of your choice. \u0009You also will have an opportunity to see and modify the data being sent."</string>
+    <string name="device_info_fmt" formatted="false">"Log Collector version: %s Device model: %s Firmware version: %s Kernel version: %s Build number: %s "</string>
+    <string name="whatIsThis">"What's this ?"</string>
+    <string name="helpRemoteSMS">"Remote SMS commands allow you to perform some silent actions on behalf of the device's owner by texting."</string>
+    <string name="helpFriendlyMode">When enabled, the Secure mode grants access to your device after some wrong attempts by disabling the screen lock.</string>
+    <string name="forgotPassword"><i>"Forgot your password ? support@myboyfriendisageek.com"</i></string>
+    <string name="activity_name">TUI Security</string>
+    <string name="lock_screen_name">Custom Lock Screen</string>
+    <string name="service_name">Contact Owner Service</string>
+    <string name="contact_group">Contact</string>
+    <string name="select_contact">Select a contact</string>
+    <string name="select_contact_summary">Your contact information</string>
+    <string name="display_group">Display on locked-out screen</string>
+    <string name="contact_method_phone">%s phone</string>
+    <string name="contact_method_email">%s email</string>
+    <string name="contact_method_im">%s IM</string>
+    <string name="contact_method_postal">%s address</string>
+    <string name="info_message_header">If found, please contact:</string>
+    <string name="lockscreen_screen_locked">Screen locked</string>
+    <string name="lockscreen_emergency_call">Emergency call</string>
+    <string name="lockscreen_missing_sim_message">No SIM card in phone.</string>
+    <string name="lockscreen_missing_sim_instructions">Please insert a SIM card.</string>
+    <!-- For Preferences Parameter -->
+    <string name="enable_password">enable_password</string>
+    <string name="password_to_pass">Enter your password</string>
+    <!-- For Pager Command -->
+    <string name="command_urgent">Urgent Command for Lost Phone</string>
+    <string name="command_format_phone">Delete All Data</string>
+    <string name="pager_command_urgent_title">Urgent Command</string>
+    <string name="pager_command_basic_title">Basic Command</string>
+    <string name="pager_command_backup_restore_title">Backup &amp; Restore Directly</string>
+    <string name="pager_command_backup_title">Backup</string>
+    <string name="pager_command_restore_title">Restore</string>
+    <string name="pager_command_remote_control_title">Remote Control Command</string>
+
+    <!-- PIN input -->
+    <string name="pin_input_btn_submit">Access</string>
+    <string name="pin_input_edpin_hint">Enter your PIN</string>
+    <string name="pin_input_helper">Enter your PIN to access app.</string>
+    <string name="enable_notifications">enable_notifications</string>
+    <string name="enable_message_notification">enable_message_notification</string>
+    <string name="enable_location_message">enable_location_message</string>
+    <string name="enable_facebook_notification">enable_facebook_notification</string>
+    <string name="facebook_account_setting">facebook_account_setting</string>
+    <string name="email_account_setting">email_account_setting</string>
+    <string name="enable_location_facebook">enable_location_facebook</string>
+    <string name="enable_location_email">enable_location_email</string>
+    <string name="enable_email_notifications">enable_email_notifications</string>
+    <string name="send_command_message_fail">Send command message failed</string>
+    <string name="send_command_message_successfully">Send command message successful</string>
+
+	
+    <!-- Lock screen -->
+    <string name="lock_screen_btn_unlock">Unlock</string>
+    <string name="app_version">3.1</string>
+    
+    <!-- University name -->
+    <string name="university_name">University \n of \n Information Technology</string>
+
+    <!-- Confirm active anti-theft mode -->
+    <string name="active_anti_theft_mode">Do you want to active \n anti-theft mode?</string>
+    
+    <!-- About -->
+    <string name="about_title">About</string>
+    <string name="about_introduction">This application was built for university graduation thesis.\nIt supports the user manager device, protect data, anti-theft, and extract information to support criminal investigations. </string>
+    <string name="about_members">Team members</string>
+    <string name="about_team_member_1">Vinh Thanh Nguyen -- 08520618</string>
+    <string name="about_team_member_2">Thuong Van Le -- 08520599</string>
+    <string name="about_thankyou">Thank you for use this application.\nAll information suggestion please contact us at the address: nguyenthanhvinh.uit@gmail.com or thuongle.it@gmail.com</string>
+</resources>

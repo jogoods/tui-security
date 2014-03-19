@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:orientation="vertical"
+            android:paddingLeft="10px"
+            android:paddingRight="10px" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_launcher" />
+
+                <TextView
+                    style="@style/LogoText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="TUI Security"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <include layout="@layout/row_line" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Enter your username and password to login" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15px"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10px" >
+
+                <EditText
+                    android:id="@+id/etLoginUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@layout/form_username"
+                    android:drawableLeft="@drawable/usernameicon"
+                    android:ems="10"
+                    android:hint="Username"
+                    android:maxLength="32"
+                    android:singleLine="true"
+                    android:textColor="@android:color/white" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/etLoginPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/editText1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@layout/form_password"
+                    android:drawableLeft="@drawable/passwordicon"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:maxLength="32"
+                    android:maxLines="1"
+                    android:password="true" />
+            </LinearLayout>
+
+            <include layout="@layout/row_line" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tvForgotPassword"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:clickable="true"
+                    android:gravity="center_horizontal"
+                    android:text="Forgot your password?"
+                    android:textColor="@android:color/holo_orange_light" />
+
+                <TextView
+                    android:id="@+id/tvRegister"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:clickable="true"
+                    android:gravity="center_horizontal"
+                    android:text="Don&apos;t have account?"
+                    android:textColor="@android:color/holo_blue_light" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.02"
+        android:orientation="vertical" >
+
+        <include layout="@layout/row_line" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button_common_green_bg"
+            android:gravity="center"
+            android:text="Login" />
+    </LinearLayout>
+
+</LinearLayout>

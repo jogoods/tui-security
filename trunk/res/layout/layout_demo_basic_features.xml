@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main_bg_color"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/antitheft_guide_title"
+        android:gravity="center"
+        android:text="@string/demo_activity_basic_features_introduction" />
+
+    <include layout="@layout/row_line" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/antitheft_guide_text_small"
+                android:layout_width="281dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28.0dip"
+                android:layout_marginRight="28.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_weight="0.02"
+                android:text="@string/demo_activity_basic_features_action" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="15.0dip"
+                android:layout_weight="0.21"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <include layout="@layout/row_line" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/item_demo_basic_feature" />
+
+                <TextView
+                    style="@style/antitheft_guide_title"
+                    android:gravity="center"
+                    android:text="@string/demo_features"
+                    android:textColor="@color/red"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_weight="2.24"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10.0dip"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingRight="5dp"
+                            android:src="@drawable/list_icon_security" />
+
+                        <TextView
+                            style="@style/antitheft_guide_text_medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5.0dip"
+                            android:text="@string/feature_delete_contact" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10.0dip"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingRight="5dp"
+                            android:src="@drawable/list_icon_security" />
+
+                        <TextView
+                            style="@style/antitheft_guide_text_medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5.0dip"
+                            android:text="@string/feature_delete_message" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10.0dip"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6.0dip"
+                            android:paddingRight="5dp"
+                            android:src="@drawable/list_icon_security" />
+
+                        <TextView
+                            style="@style/antitheft_guide_text_medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5.0dip"
+                            android:text="@string/feature_delete_media" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <include layout="@layout/row_line" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        android:layout_marginTop="15.0dip"
+        layout="@layout/comon_demo_button" />
+
+</LinearLayout>

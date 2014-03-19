@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:fadingEdge="none"
+        android:hapticFeedbackEnabled="false"
+        android:paddingTop="10.0dip" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="5dip" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/setting_title_bg"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10.0dip"
+                    android:paddingRight="10.0dip" >
+
+                    <TextView
+                        style="@style/text_middle_default"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:padding="4.0dip"
+                        android:text="@string/pager_command_remote_control_title"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@id/btnAutoRecording"
+                style="@style/ButtonText"
+                android:background="@drawable/button_yellow"
+                android:text="Auto Recording" />
+
+            <Button
+                android:id="@id/btnVictimData"
+                style="@style/ButtonText"
+                android:background="@drawable/button_yellow"
+                android:text="Get Victim Data" />
+
+            <Button
+                android:id="@id/btnGetLocaltion"
+                style="@style/ButtonText"
+                android:background="@drawable/button_green"
+                android:text="Get Victim Location" />
+
+            <Button
+                android:id="@id/btnGetSimInfo"
+                style="@style/ButtonText"
+                android:background="@drawable/button_green"
+                android:text="Get SIM Owner Information" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

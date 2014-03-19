@@ -1,0 +1,133 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:fadingEdge="none"
+        android:hapticFeedbackEnabled="false"
+        android:paddingTop="10.0dip" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+			<!-- Urgent case  -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="5dip" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/setting_title_bg"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10.0dip"
+                    android:paddingRight="10.0dip" >
+
+                    <TextView
+                        style="@style/text_middle_default"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:padding="4.0dip"
+                        android:text="@string/pager_command_urgent_title"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@id/btnCommandUrgentDelete"
+                style="@style/ButtonText"
+                android:background="@drawable/button_red"
+                android:text="@string/command_urgent" />
+			<!-- Basic command  -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="5dip"
+                android:paddingTop="5dip" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="10dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/setting_title_bg"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10.0dip"
+                    android:paddingRight="10.0dip" >
+
+                    <TextView
+                        style="@style/text_middle_default"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:padding="4.0dip"
+                        android:text="@string/pager_command_basic_title"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@id/btnBasicCommand"
+                    style="@style/ButtonText"
+                    android:background="@drawable/button_blue"
+                    android:text="Basic Command" />
+
+                <Button
+                    android:id="@id/btnSpywareCommand"
+                    style="@style/ButtonText"
+                    android:background="@drawable/button_purple"
+                    android:text="@string/pager_command_remote_control_title" />
+            </LinearLayout>
+            <!-- Backup and restore  -->
+			<LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="5dip" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/setting_title_bg"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10.0dip"
+                    android:paddingRight="10.0dip" >
+
+                    <TextView
+                        style="@style/text_middle_default"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:padding="4.0dip"
+                        android:text="@string/pager_command_backup_restore_title"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+            <Button
+                android:id="@id/btnBackup"
+                style="@style/ButtonText"
+                android:background="@drawable/button_yellow"
+                android:text="@string/pager_command_backup_title" />
+            <Button
+                android:id="@id/btnRestore"
+                style="@style/ButtonText"
+                android:background="@drawable/button_yellow"
+                android:text="@string/pager_command_restore_title" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

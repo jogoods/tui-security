@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/list_item_bg"
+              android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10.0dip"
+            android:paddingLeft="5.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="10.0dip">
+
+        <ImageView
+                android:id="@id/main_item_icon"
+                android:layout_width="35.0dip"
+                android:layout_height="35.0dip"
+                android:src="@drawable/ic_home"/>
+
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5.0dip"
+                android:layout_weight="1.0"
+                android:gravity="left|center"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@id/main_item_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="18.0sp"/>
+        </LinearLayout>
+
+        <Switch
+                android:id="@+id/main_item_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginRight="8.0dip"
+                android:textOff="Off"
+                android:textOn="On"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/row_line"/>
+
+</LinearLayout>

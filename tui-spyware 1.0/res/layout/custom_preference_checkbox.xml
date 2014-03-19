@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="7dp"
+              android:layout_marginTop="7dp"
+              android:background="@drawable/preference_row_click"
+              android:gravity="center_vertical"
+              android:minHeight="40dp"
+              android:orientation="vertical"
+              android:paddingLeft="?android:attr/scrollbarSize"
+              android:paddingRight="?android:attr/scrollbarSize">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:minHeight="20dp"
+            android:orientation="horizontal">
+
+        <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+            <TextView
+                    android:id="@+android:id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/preference_textsize_item_title"/>
+
+            <TextView
+                    android:id="@+android:id/summary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@android:id/title"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@android:color/secondary_text_dark"
+                    android:textSize="@dimen/preference_textsize_item_summary">
+            </TextView>
+        </RelativeLayout>
+        <!-- Preference should place its actual preference widget here. -->
+
+        <LinearLayout
+                android:id="@+android:id/widget_frame"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical"/>
+    </LinearLayout>
+
+    <!--
+          <ImageView
+        android:id="@+id/row_divider_basic"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:src="@drawable/preference_divider_normal" />
+    -->
+
+</LinearLayout>

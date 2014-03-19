@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="camera">
+        <item>Front camera</item>
+        <item>Back camera</item>
+    </string-array>
+    <string-array name="camera_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="exif_rotations">
+        <item>Auto</item>
+        <item>90</item>
+        <item>180</item>
+        <item>270</item>
+    </string-array>
+    <string-array name="account_type_array">
+        <item>Gmail</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="account_type_values">
+        <item>0</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="screen_trigger_threshold_array">
+        <item>everytime</item>
+        <item>after 1 failed login</item>
+        <item>after 2 failed login</item>
+        <item>after 3 failed login</item>
+        <item>after 4 failed login</item>
+        <item>after 5 failed login</item>
+    </string-array>
+    <string-array name="login_trigger_threshold_array">
+        <item>on every failed login</item>
+        <item>after 1 attempt</item>
+        <item>after 2 attempts</item>
+        <item>after 3 attempts</item>
+        <item>after 4 attempts</item>
+        <item>after 5 attempts</item>
+    </string-array>
+    <string-array name="friendly_location_period_array">
+        <item>every 15 minutes</item>
+        <item>every 30 minutes</item>
+        <item>every 45 minutes</item>
+        <item>every 60 minutes</item>
+    </string-array>
+    <string-array name="friendly_threshold_array">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="exif_rotation_values">
+        <item>0</item>
+        <item>90</item>
+        <item>180</item>
+        <item>270</item>
+    </string-array>
+    <string-array name="blocking_app_running_action_options">
+        <item>@string/reschedule_notification_text</item>
+        <item>@string/ignore_notification_text</item>
+        <item>@string/show_notification_text</item>
+    </string-array>
+    <string-array name="blocking_app_running_action_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="question_forget_password">
+        <item>Where were you born?</item>
+        <item>"Father's middle name?"</item>
+        <item>"Mother's middle name?"</item>
+        <item>Favorite food?</item>
+        <item>Favorite vacation location?</item>
+        <item>Name of your first pet?</item>
+    </string-array>
+    <string-array name="get_victim_data_mode">
+        <item>System Setting</item>
+        <item>Contact</item>
+        <item>Message</item>
+        <item>Maps Location</item>
+        <item>Youtube History</item>
+        <item>Facebook History</item>
+        <item>Yahoo History</item>
+        <item>Account Setting</item>
+        <item>Calendar</item>
+    </string-array>
+    <string-array name="get_backup_restore_mode">
+        <item>Contact</item>
+        <item>Message</item>
+    </string-array>
+    <string-array name="get_backup_delete_mode">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="get_stop_recording_mode">
+        <item>Stop when has interaction</item>
+        <item>Stop after setting time</item>
+    </string-array>
+
+</resources>

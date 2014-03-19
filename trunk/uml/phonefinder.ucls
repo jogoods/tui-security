@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.1" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="tuisolutions.tuisecurity.services.PhoneFinderService" project="TUI Sercurity" 
+    file="/TUI Sercurity/src/tuisolutions/tuisecurity/services/PhoneFinderService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="324" y="257"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="android.app.Service" project="TUI Sercurity" 
+    file="D:/Android/sdk/platforms/android-15/android.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="325" y="68"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="true" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="tuisolutions.tuisecurity.controllers.Mailer" project="TUI Sercurity" 
+    file="/TUI Sercurity/src/tuisolutions/tuisecurity/controllers/Mailer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="221" y="707"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="tuisolutions.tuisecurity.utils.Utils" project="TUI Sercurity" 
+    file="/TUI Sercurity/src/tuisolutions/tuisecurity/utils/Utils.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="153" y="443"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="tuisolutions.tuisecurity.utils.MyLocationListener" project="TUI Sercurity" 
+    file="/TUI Sercurity/src/tuisolutions/tuisecurity/utils/LocationsUtils.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="603" y="376"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="tuisolutions.tuisecurity.utils.LocationsUtils" project="TUI Sercurity" 
+    file="/TUI Sercurity/src/tuisolutions/tuisecurity/utils/LocationsUtils.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="575" y="681"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="android.location.LocationListener" project="TUI Sercurity" 
+    file="D:/Android/sdk/platforms/android-15/android.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="60" width="144" x="534" y="162"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="javax.mail.Authenticator" project="TUI Sercurity" 
+    file="D:/Working Space/tui-sercutiry/trunk/libs/mail.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="330" y="445"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <note id="9">    
+    <position height="100" width="200" x="958" y="1178"/>    
+    <text><![CDATA[
+    
+    ]]>
+    </text>  
+  </note>  
+  <note id="10">    
+    <position height="100" width="200" x="-343" y="1234"/>    
+    <text><![CDATA[
+    
+    ]]>
+    </text>  
+  </note>  
+  <note id="11">    
+    <position height="100" width="200" x="-220" y="-246"/>    
+    <text><![CDATA[
+    
+    ]]>
+    </text>  
+  </note>  
+  <note id="12">    
+    <position height="100" width="200" x="1110" y="-257"/>    
+    <text><![CDATA[
+    
+    ]]>
+    </text>  
+  </note>  
+  <class id="13" language="java" name="tuisolutions.tuisecurity.controllers.Mailer.SendEmail" project="TUI Sercurity" 
+    file="/TUI Sercurity/src/tuisolutions/tuisecurity/controllers/Mailer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-3" y="278"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <dependency id="14">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <nesting id="15">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="13"/>  
+  </nesting>  
+  <realization id="16">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <generalization id="17">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <dependency id="18">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="19">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="20">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <generalization id="21">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

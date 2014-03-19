@@ -1,0 +1,24 @@
+<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/viewPager_LoginRegister"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/list_item_bg_color"
+    tools:context=".LoginRegisterActivity" >
+
+    <!--
+    This title strip will display the currently visible page title, as well as the page
+    titles for adjacent pages.
+    -->
+
+    <android.support.v4.view.PagerTitleStrip
+        android:id="@+id/viewPagerStrip_LoginRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="@drawable/box"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:textColor="@color/toptext" />
+
+</android.support.v4.view.ViewPager>
